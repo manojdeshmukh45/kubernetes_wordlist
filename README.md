@@ -22,3 +22,6 @@ https://github.com/manojdeshmukh45/kubernetes_wordlist/blob/main/kubernetes-word
 
 # Fuzz using wordlist
 fuzz -w kubernetes-wordlist.txt -u https://master-ip:portFUZZ -mc 200
+
+
+!Note: No need to add / after IP address
