@@ -21,4 +21,4 @@ https://github.com/ffuf/ffuf
 https://github.com/manojdeshmukh45/kubernetes_wordlist/blob/main/kubernetes-wordlist.txt
 
 # Fuzz using wordlist
-fuzz -w kubernetes-wordlist.txt -u https://<master-ip>:<port>FUZZ -mc 200
+fuzz -w kubernetes-wordlist.txt -u https://master-ip:portFUZZ -mc 200
