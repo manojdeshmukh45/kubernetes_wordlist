@@ -1,5 +1,24 @@
-# kubernetes_wordlist
-This repository contains wordlists for fuzzing kubernetes.
+<!-- Project Title -->
+<h1 align="center">kubernetes_wordlist</h1>
 
-Download kubernetes-wordlist.txt and run a fuzzing using this wordlist.</br>
-EX. ffuf -w kubernetes-wordlist.txt -u https://master-ip:ipFUZZ -mc 200
+<!-- Project Description -->
+<p align="center">This repository contains wordlists for fuzzing kubernetes.</p>
+
+<!-- Badges -->
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
+  <img src="https://img.shields.io/badge/Version-1.0-brightgreen.svg" alt="Version">
+</p>
+
+
+<!-- Installation -->
+## Installation
+```bash
+# Install ffuf
+https://github.com/ffuf/ffuf
+
+# Download the wordlist 
+https://github.com/manojdeshmukh45/kubernetes_wordlist/blob/main/kubernetes-wordlist.txt
+
+# Fuzz using wordlist
+fuzz -w kubernetes-wordlist.txt -u https://127.0.0.1FUZZ -mf 200
