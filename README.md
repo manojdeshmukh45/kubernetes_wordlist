@@ -1,5 +1,5 @@
 <!-- Project Title -->
-<h1 align="center">kubernetes_wordlist</h1>
+<h1 align="center">Kubernetes Wordlist</h1>
 
 <!-- Project Description -->
 <p align="center">This repository contains wordlists for fuzzing kubernetes.</p>
