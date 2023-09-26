@@ -259,3 +259,4 @@
 /readyz/poststarthook/start-kube-aggregator-informers
 /readyz/poststarthook/start-kube-apiserver-admission-initializer
 /readyz/shutdown
+/api/v1/namespaces/kubernetes-dashboard/services/kubernetes-dashboard/proxy
