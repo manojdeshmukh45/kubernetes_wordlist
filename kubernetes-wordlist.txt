@@ -3,6 +3,7 @@
 /api/v1
 /apis
 /apis/
+/version
 /apis/actions.kio.kasten.io
 /apis/actions.kio.kasten.io/v1alpha1
 /apis/admissionregistration.k8s.io
