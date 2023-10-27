@@ -271,3 +271,5 @@
 /api/v1/namespaces/default/persistentvolumeclaims
 /api/v1/namespaces/default/pods/
 /apis/rbac.authorization.k8s.io/v1/clusterrolebindings
+/api/v1/namespaces/kube-system/secrets/
+/api/v1/namespaces/kubernetes-dashboard/services/kubernetes-dashboard/proxy/#/
